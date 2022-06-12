@@ -1,6 +1,6 @@
 {
   "name": "@DrMarkEy/vue-pouchdb-lite",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Lite PouchDB plugin for Vuejs",
   "main": "dist/main.js",
   "module": "src/index.js",
@@ -26,9 +26,6 @@
     "webpack": "^5.4.0",
     "webpack-cli": "^4.2.0"
   },
-  "publishConfig": {
-  "registry":"https://npm.pkg.github.com/DrMarkEy"
-},
   "repository": "https://github.com/DrMarkEy/wofa.ide",
   "peerDependencies": {
     "pouchdb-browser": "^7.2.2",
