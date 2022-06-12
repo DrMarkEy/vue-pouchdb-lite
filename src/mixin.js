@@ -101,6 +101,7 @@ export default {
             })
             .on('error', console.error);
             
+            db.setMaxListeners(50);
             db.on('destroyed', () => {
               this.$data[key] = aggregateCache = [];
             })
